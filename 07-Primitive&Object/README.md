@@ -61,14 +61,17 @@ console.log(score === copy); // false
 - 객체는 변경 가능한 값 
 - 객체를 할당한 변수에는 생성된 객체가 실제로 저장된 메모리 공간에 주소(참조값)가 저장되어 있음 
 - 변수는 이 참조 값을 통해 객체에 접근함 
+
 ```javascript
 var person = {
     name: 'Lee'
 }
+
 ```
 <p align="center">
     <img src='./assets//IMG_4F13F92DF3E5-1.jpeg' alt="객체 메모리 구조" width="300" position='center'/>
 </p>
+
 - 객체는 변경 가능한 값이므로 메모리에 저장된 객체를 직접 수정할 수 있음
 - 이때 객체를 할당한 변수에 재할당을 하지 않았으므로 객체를 할당한 변수의 참조값은 변경되지 않음 
 ```javascript
@@ -83,6 +86,7 @@ person.address = 'Seoul';
 <p align="center">
     <img src='./assets/IMG_1D5D4BC829D9-1.jpeg' alt="객체 메모리 구조" width="300"/>
 </p>
+
 > 객체의 구조적 단점: 원시 값과 다르게 여러 개의 식별자가 하나의 객체를 공유할 수 있음
 
 #### 얕은 복사와 깊은 복사
