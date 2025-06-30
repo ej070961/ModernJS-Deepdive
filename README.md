@@ -23,3 +23,4 @@
 - [24장: 클로저](./24-Closer/README.md)
 - [25장: 클래스](./25-Class/README.md)
 - [38장: 브라우저의 렌더링 과정](./38-Browser%20Rendering/README.md)
+- [41장: 타이머](./41-Timer//README.md)
